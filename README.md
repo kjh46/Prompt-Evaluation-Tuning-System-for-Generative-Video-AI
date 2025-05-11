@@ -46,6 +46,8 @@ flowchart LR
 ### 1. CLIP-Based Similarity Analysis
 - Use **CLIP ViT-B/32** to compute frame-wise prompt similarity
 - Analyze **semantic consistency over time** with line plots
+![image](https://github.com/user-attachments/assets/0a782511-e075-4f94-9651-c99b9d39ebbf)
+
 
 ### 2. Object Detection via YOLOv8
 - Extract key nouns from the prompt (e.g. "dog", "forest")
