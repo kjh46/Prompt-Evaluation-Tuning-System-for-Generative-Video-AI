@@ -30,13 +30,13 @@ We aim to:
 
 ```mermaid
 flowchart LR
-    A[Prompt Input] --> B[Video Generation (e.g. Hunyuan)]
-    B --> C[Frame Extraction (OpenCV)]
-    C --> D[CLIP Similarity Evaluation]
-    C --> E[YOLOv8 Object Detection]
-    D --> F[GPT Feedback & Prompt Tuning]
+    A["Prompt Input"] --> B["Video Generation (e.g., Hunyuan)"]
+    B --> C["Frame Extraction (OpenCV)"]
+    C --> D["CLIP Similarity Evaluation"]
+    C --> E["YOLOv8 Object Detection"]
+    D --> F["GPT Feedback & Prompt Tuning"]
     E --> F
-    F --> G[Improved Prompt Suggestion]
+    F --> G["Improved Prompt Suggestion"]
 ```
 
 ---
@@ -92,7 +92,6 @@ project-root/
 ```
 
 ---
-
 
 
 ## 📈 Outcomes
