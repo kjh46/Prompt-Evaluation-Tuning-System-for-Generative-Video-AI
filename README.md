@@ -1,4 +1,4 @@
-# 🎨 Prompt Evaluation & Tuning System for Generative Video AI
+# 🎬 Prompt Evaluation & Tuning System for Generative Video AI
 
 > Analyze and optimize prompts for generative video AI (e.g. Sora, HunyuanVideo, Runway) using CLIP, YOLO, and GPT.
 
@@ -29,14 +29,14 @@ We aim to:
 ## ⚙️ System Architecture
 
 ```mermaid
-graph LR
-A[Prompt Input] --> B[Video Generation (e.g. Hunyuan)]
-B --> C[Frame Extraction (OpenCV)]
-C --> D[CLIP Similarity Evaluation]
-C --> E[YOLOv8 Object Detection]
-D --> F[GPT Feedback & Prompt Tuning]
-E --> F
-F --> G[Improved Prompt Suggestion]
+flowchart LR
+    A[Prompt Input] --> B[Video Generation (e.g. Hunyuan)]
+    B --> C[Frame Extraction (OpenCV)]
+    C --> D[CLIP Similarity Evaluation]
+    C --> E[YOLOv8 Object Detection]
+    D --> F[GPT Feedback & Prompt Tuning]
+    E --> F
+    F --> G[Improved Prompt Suggestion]
 ```
 
 ---
@@ -93,21 +93,7 @@ project-root/
 
 ---
 
-## 🚀 Quickstart
 
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Put a video in `input/`
-4. Run:
-   ```bash
-   python main.py
-   streamlit run streamlit_app.py
-   ```
-
----
 
 ## 📈 Outcomes
 
