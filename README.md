@@ -34,7 +34,8 @@ A[Prompt Input] --> B[Video Generation (e.g. Hunyuan)]
 B --> C[Frame Extraction (OpenCV)]
 C --> D[CLIP Similarity Evaluation]
 C --> E[YOLOv8 Object Detection]
-D & E --> F[GPT Feedback & Prompt Tuning]
+D --> F[GPT Feedback & Prompt Tuning]
+E --> F
 F --> G[Improved Prompt Suggestion]
 ```
 
