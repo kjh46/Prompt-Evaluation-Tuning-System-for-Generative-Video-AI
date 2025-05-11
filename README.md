@@ -114,7 +114,8 @@ project-root/
 
 ## 🖼 Screenshots
 
-> *(Add screenshots of CLIP graphs, object detection samples, and Streamlit UI here)*
+> *(![image](https://github.com/user-attachments/assets/d5bbd8c0-ce26-4323-ab5f-31f5a14ea04f)
+![image](https://github.com/user-attachments/assets/c057c358-1610-4b98-a4c5-00849b62a3bb))*
 
 ---
 
