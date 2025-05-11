@@ -50,6 +50,8 @@ flowchart LR
 ### 2. Object Detection via YOLOv8
 - Extract key nouns from the prompt (e.g. "dog", "forest")
 - Use **YOLOv8m** to detect object presence in each frame
+- ![image](https://github.com/user-attachments/assets/0efb129d-a8b7-4c0b-bbd6-c86abd5deaf9)
+
 
 ### 3. GPT-Based Feedback & Prompt Tuning
 - Summarize gaps: missing objects, low similarity areas
