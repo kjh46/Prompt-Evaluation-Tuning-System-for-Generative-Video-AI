@@ -30,7 +30,7 @@ We aim to:
 
 ```mermaid
 flowchart LR
-    A["Prompt Input"] --> B["Video Generation (e.g., Hunyuan)"]
+    A["Prompt Input"] --> B["Video Generation"]
     B --> C["Frame Extraction (OpenCV)"]
     C --> D["CLIP Similarity Evaluation"]
     C --> E["YOLOv8 Object Detection"]
