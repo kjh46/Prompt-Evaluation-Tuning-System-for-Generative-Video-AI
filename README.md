@@ -129,6 +129,9 @@ For full academic citations, see [`docs/references.md`](./docs/references.md)
 
 ---
 
-## 📬 Contact
+## 📜 License
 
-Feel free to reach out via Issues or Discussions tab for collaboration or feedback!
+This project is licensed under the **MIT License**. Feel free to use, modify, and distribute it.
+
+---
+
